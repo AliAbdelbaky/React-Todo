@@ -1,0 +1,20 @@
+.list-items {
+	width: 50%;
+	margin: auto;
+}
+.list-items .item {
+	display: grid;
+	grid-template-columns: 1fr 1fr 10%;
+	text-align: left;
+	align-items: center;
+}
+.list-items .item span {
+	border: 3px solid #ddd;
+}
+.deleteBtn{
+    cursor: pointer;
+    font-size: 2rem;
+}
+.list-items .item span:last-child{
+    text-align: center;
+}

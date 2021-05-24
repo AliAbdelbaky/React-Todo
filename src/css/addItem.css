@@ -1,0 +1,27 @@
+.addItem{
+    margin-top:3rem;
+}
+.addItem form {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.addItem form input:focus {
+	outline: none;
+}
+.addItem form input {
+	font-size:1.5rem;
+    padding:0.5rem 0rem
+}
+#name{
+    width: 100%;
+}
+.addItem form button{
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 2rem;
+    border: 1px solid #fff;
+    padding: 11px;
+    outline: none;
+    cursor: pointer;
+}
